@@ -9,8 +9,8 @@ jobs:
     requires: [~pr]
     image: maven:3.6.3-openjdk-8
     annotations:
-      screwdriver.cd/cpu: 8
-      screwdriver.cd/ram: 16
+      screwdriver.cd/cpu: TURBO
+      screwdriver.cd/cpu: TURBO
       screwdriver.cd/disk: HIGH
       screwdriver.cd/timeout: 120
 
